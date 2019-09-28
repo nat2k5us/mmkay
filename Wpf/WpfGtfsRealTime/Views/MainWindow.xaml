@@ -1,0 +1,35 @@
+﻿<controls:MetroWindow 
+        x:Class="WpfGtfsRealTime.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:viewModels="clr-namespace:WpfGtfsRealTime.ViewModels"
+        xmlns:views="clr-namespace:WpfGtfsRealTime.Views"
+        mc:Ignorable="d"
+      BorderThickness="0" 
+                      GlowBrush="Black"
+                      ResizeMode="CanResizeWithGrip"
+        BorderBrush="{DynamicResource LightBorderBrush}"
+        Title="GTFS Utility Tool"
+        Width="1024" Height="768"
+       >
+    
+    <controls:MetroWindow.DataContext>
+        <viewModels:MainWindowViewModel />
+    </controls:MetroWindow.DataContext>
+
+    <controls:MetroAnimatedTabControl>
+        <controls:MetroTabItem Header="  Gtfs Real Time ETA  ">
+            <views:PredictionWindow DataContext="{Binding PredictionWindowViewModel}" />
+        </controls:MetroTabItem>
+
+      
+
+        <controls:MetroTabItem Header="  Gtfs Service Alerts  " >
+            <views:ServiceAlerts DataContext="{Binding ServiceAlertsViewModel}" />
+        </controls:MetroTabItem>
+    </controls:MetroAnimatedTabControl>
+
+</controls:MetroWindow>

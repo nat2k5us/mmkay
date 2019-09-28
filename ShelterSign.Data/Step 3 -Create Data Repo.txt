@@ -1,0 +1,21 @@
+﻿Step 1:
+Create Repository XXX, for example RouteRepository
+Create IRouteRepository like 
+  public interface IRouteRepository : IDataRepository<Route>
+    {
+
+    }
+
+	Step 2:
+	Create RouteRepository concrete class like
+	[Export(typeof(IStopRepository))]
+    [PartCreationPolicy(CreationPolicy.NonShared)] // Not Singleton
+    public class RouteRepository : DataRepositoryBase<Stop>, IRouteRepository
+    {
+	}
+
+	Step 3:
+	Implement the Interface of IRouteRepository in RouteRepository
+
+	Step4:
+	Add To SignDBContext the Relevent DbSet<Route> and setup the fluent mapping for Key, Forien Key and Ignore.

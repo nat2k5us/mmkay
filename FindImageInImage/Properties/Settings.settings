@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FindImageInImage.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ClickSenseFindDir" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.//ClixSenseFinds//</Value>
+    </Setting>
+    <Setting Name="ClickSenseCloseDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.//ClixSenseClose//</Value>
+    </Setting>
+    <Setting Name="NemoFindDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.//NemoFind//</Value>
+    </Setting>
+    <Setting Name="NemoDotDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.//NemoDots//</Value>
+    </Setting>
+    <Setting Name="NemoCloseDir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.//NemoCloses//</Value>
+    </Setting>
+    <Setting Name="ClickSenseScreenIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="NemoScreenIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MegaScreenIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ScreenZoomFactorX" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">45</Value>
+    </Setting>
+    <Setting Name="ScreenZoomFactorY" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">27</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

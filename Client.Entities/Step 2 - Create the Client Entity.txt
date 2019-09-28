@@ -1,0 +1,4 @@
+﻿Step 1:
+Creata a client entity that is derived from ObjectBase - which in turn inherits from NotificationObject, IDirtyCapable, IExtensibleDataObject, IDataErrorInfo
+Step 2:
+using CTRL + K and X use snippet propgn or propgs to create Notifyable properties

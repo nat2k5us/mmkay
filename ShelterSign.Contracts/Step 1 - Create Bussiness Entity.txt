@@ -1,0 +1,24 @@
+﻿Step 1: 
+Create the Data Contract for example Route will be (Tip - Copy an existing entity in DataContracts and Rename)
+[DataContract]
+public class Route : EntityBase, IIdentifiableEntity, IAccountOwnedEntity 
+{
+	[DataMember]
+	public int RouteId {get; set;}
+
+	// More data members as needed
+}
+
+Step 2:
+Create the Service Contract (Tip - Copy an existing Service in Service Contracts and Rename)
+[ServiceContract]
+public interface IRouteService
+{
+	[OperationContract]
+	Route GetRoute(int id);
+
+	[OperationContract]
+	IEnumerable<Route> GetRoutes();
+
+	// Add more Operations as needed
+}

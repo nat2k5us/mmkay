@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPlot", "WpfPlot\WpfPlot.csproj", "{183FF06F-B37C-41A5-9139-5E903DAF194F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{183FF06F-B37C-41A5-9139-5E903DAF194F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183FF06F-B37C-41A5-9139-5E903DAF194F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183FF06F-B37C-41A5-9139-5E903DAF194F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183FF06F-B37C-41A5-9139-5E903DAF194F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(PhysicalSolutionFolders) = postSolution
+		NumEntries = 1
+		0SolutionFolder = Samples
+		0PhysicalFolder = ..\MyDream
+		0Filter = .*
+		0DirFilter = .*
+		0Relative = True
+		0Recursive = True
+		0Force = False
+		0DropEmpty = True
+	EndGlobalSection
+EndGlobal
